@@ -1,0 +1,23 @@
+program ProjetoExtracao;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Interfaces, // this includes the LCL widgetset
+  Forms, UPrincipal, USelecionar, usobre
+  { you can add units after this };
+
+{$R *.res}
+
+begin
+  RequireDerivedFormResource := True;
+  Application.Initialize;
+  Application.CreateForm(TFPrincipal, FPrincipal);
+  Application.CreateForm(TFormSelecionar, FormSelecionar);
+  Application.CreateForm(TFormSobre, FormSobre);
+  Application.Run;
+end.
+
