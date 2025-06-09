@@ -1,6 +1,6 @@
 # 🧾 ProjetoExtração – Extrator de Dados de Arquivos .PLT do ANATEM
 
-Este software foi desenvolvido em Lazarus com o objetivo de facilitar a **extração e organização dos dados contidos em arquivos `.plt`** gerados pelo sistema [ANATEM](ANATEM) (Análise de Transitórios Eletromecânicos) do ![CEPEL](https://www.cepel.br/). Ele permite ao usuário selecionar parâmetros específicos e salvar os dados extraídos de forma prática.
+Este software foi desenvolvido em Lazarus com o objetivo de facilitar a **extração e organização dos dados contidos em arquivos `.plt`** gerados pelo sistema [ANATEM](https://www.cepel.br/produtos/anatem/) (Análise de Transitórios Eletromecânicos) do [CEPEL](https://www.cepel.br/). Ele permite ao usuário selecionar parâmetros específicos e salvar os dados extraídos de forma prática.
 
 ---
 
